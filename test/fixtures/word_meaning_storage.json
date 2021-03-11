@@ -1,0 +1,84 @@
+{
+  "word": "content",
+  "contexts": [
+    {
+      "phonetics": [
+        {
+          "text": "/kənˈtɛnt/",
+          "audio": "https://lex-audio.useremarkable.com/mp3/xcontent_us_1.mp3"
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "adjective",
+          "definitions": [
+            {
+              "definition": "In a state of peaceful happiness.",
+              "example": "he seemed more content, less bitter",
+              "synonyms": ["contented", "satisfied", "pleased"]
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "transitive verb",
+          "definitions": [
+            {
+              "definition": "Satisfy (someone)",
+              "example": "nothing would content her",
+              "synonyms": [
+                "soothe",
+                "pacify",
+                "placate",
+                "appease",
+                "please",
+                "mollify",
+                "make happy",
+                "satisfy",
+                "still",
+                "silence"
+              ]
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "A state of satisfaction.",
+              "example": "the greater part of the century was a time of content",
+              "synonyms": [
+                "contentment",
+                "contentedness",
+                "satisfaction",
+                "fulfilment"
+              ]
+            },
+            {
+              "definition": "A member of the British House of Lords who votes for a particular motion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phonetics": [
+        {
+          "text": "/ˈkɑntɛnt/",
+          "audio": "https://lex-audio.useremarkable.com/mp3/xcontent_us_1.mp3"
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "The things that are held or included in something.",
+              "synonyms": ["things inside", "content", "load"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

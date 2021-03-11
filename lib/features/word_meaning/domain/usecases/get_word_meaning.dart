@@ -19,5 +19,7 @@ class GetWordMeaning implements Usecase<WordMeaning, Params> {
 
 class Params extends Equatable {
   final String word;
-  Params({@required this.word}) : super([word]);
+  Params({@required this.word});
+  @override
+  List<Object> get props => [word];
 }

@@ -8,7 +8,10 @@ class WordMeaning extends Equatable {
   WordMeaning({
     @required this.word,
     @required this.contexts,
-  }) : super([word, contexts]);
+  });
+
+  @override
+  List<Object> get props => [word, contexts];
 }
 
 class Context extends Equatable {
@@ -18,7 +21,10 @@ class Context extends Equatable {
   Context({
     @required this.phonetics,
     @required this.meanings,
-  }) : super([phonetics, meanings]);
+  });
+
+  @override
+  List<Object> get props => [phonetics, meanings];
 }
 
 class Phonetic extends Equatable {
@@ -27,7 +33,10 @@ class Phonetic extends Equatable {
   Phonetic({
     @required this.text,
     @required this.audio,
-  }) : super([text, audio]);
+  });
+
+  @override
+  List<Object> get props => [text, audio];
 }
 
 class Meaning extends Equatable {
@@ -37,7 +46,10 @@ class Meaning extends Equatable {
   Meaning({
     @required this.partOfSpeech,
     @required this.definitions,
-  }) : super([partOfSpeech, definitions]);
+  });
+
+  @override
+  List<Object> get props => [partOfSpeech, definitions];
 }
 
 class Definition extends Equatable {
@@ -48,5 +60,8 @@ class Definition extends Equatable {
     @required this.definition,
     this.example,
     this.synonyms,
-  }) : super([definition, example, synonyms]);
+  });
+
+  @override
+  List<Object> get props => [definition, example, synonyms];
 }
